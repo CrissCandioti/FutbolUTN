@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="menu2" min="-2" pref="99" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="subMenuPanel1" pref="130" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="mainForm1" min="-2" pref="801" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="subMenuPanel1" alignment="1" pref="614" max="32767" attributes="0"/>
+          <Component id="menu2" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="mainForm1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="vista.Complementos.SubMenuPanel" name="subMenuPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder bottom="1" left="1" right="1" top="80"/>
+          </Border>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="opacity" type="float" value="1.0"/>
+      </Properties>
+    </Container>
+    <Container class="vista.Complementos.Menu" name="menu2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="mainForm" type="vista.Complementos.MainForm" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="mainForm1"/>
+        </Property>
+        <Property name="opacity" type="float" value="1.0"/>
+        <Property name="subMenuPanel" type="vista.Complementos.SubMenuPanel" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="subMenuPanel1"/>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/vista/Iconos/logo.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="vista.Complementos.MenuItem" name="menuItem1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/vista/Iconos/menu1.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem1"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="vista/Iconos/s2_2.png"/>
+                <StringItem index="1" value="vista/Iconos/s4_1.png"/>
+                <StringItem index="2" value="vista/Iconos/s3_1.png"/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Crear Jugador"/>
+                <StringItem index="1" value="Crear Equipo"/>
+                <StringItem index="2" value="Crear Campeonato"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="vista.Complementos.MenuItem" name="menuItem2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ea" green="ab" red="23" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9a" green="1f" red="f2" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/vista/Iconos/menu2.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem2"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="vista/Iconos/s2_2.png"/>
+                <StringItem index="1" value="vista/Iconos/s4_1.png"/>
+                <StringItem index="2" value="vista/Iconos/s3_1.png"/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Consulta todos los Jugador"/>
+                <StringItem index="1" value="Consulta todos los Equipo"/>
+                <StringItem index="2" value="Consulta todos los Campeonatos"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="vista.Complementos.MenuItem" name="menuItem3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="dd" green="42" red="71" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="30" green="d1" red="cb" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/vista/Iconos/menu3.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem3"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="vista/Iconos/s2_2.png"/>
+                <StringItem index="1" value="vista/Iconos/s4_1.png"/>
+                <StringItem index="2" value="vista/Iconos/s3_1.png"/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Consulta por Jugador"/>
+                <StringItem index="1" value="Consulta por Equipo"/>
+                <StringItem index="2" value="Consulta por Campeonato"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="vista.Complementos.MenuItem" name="menuItem4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a3" green="4f" red="10" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9e" green="9e" red="c" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/vista/Iconos/menu4.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem4"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="vista/Iconos/s2_2.png"/>
+                <StringItem index="1" value="vista/Iconos/s4_1.png"/>
+                <StringItem index="2" value="vista/Iconos/s4_1.png"/>
+                <StringItem index="3" value="vista/Iconos/s3_1.png"/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Modificar y Eliminar Jugador"/>
+                <StringItem index="1" value="Modificar y Eliminar Equipo"/>
+                <StringItem index="2" value="Modificar y Eliminar Equipo-Jugador"/>
+                <StringItem index="3" value="Modificar y Eliminar Campeonato"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="vista.Complementos.MenuItem" name="menuItem5">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="21" red="3" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/vista/Iconos/menu5.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem5"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="vista/Iconos/s1_1.png"/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="Jugar Partido"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="vista.Complementos.MainForm" name="mainForm1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+    </Container>
+  </SubComponents>
+</Form>
