@@ -40,7 +40,6 @@ public class main extends javax.swing.JFrame {
 
             @Override
             public void subMenuSelected(MainForm mainForm, int index, int subMenuIndex, Component menuItem) {
-                System.out.println(index + " " + subMenuIndex);
                 if (mainForm != null) {
                     if (index == 0 && subMenuIndex == 0) {
                         mainForm.displayForm(new CrearJugadorVista());

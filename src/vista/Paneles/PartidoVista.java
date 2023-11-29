@@ -145,8 +145,6 @@ public class PartidoVista extends JPanel {
             } else if (JComboBoxEquipos1.getSelectedItem() != JComboBoxEquipos2.getSelectedItem()) {
                 switch (numeroAleatorio) {
                     case 1:
-                        System.out.println("Ganador: " + aux.getNombre());
-                        System.out.println("Perdedor: " + index.getNombre());
                         es.modificarEquipoSinJugadores(aux.getId(), aux.getNombre(), aux.getDirectorTecnico(), aux.getJugadores(), aux.getPuntos() + 3, aux.getPartidosJugados() + 1);
                         es.modificarEquipoSinJugadores(index.getId(), index.getNombre(), index.getDirectorTecnico(), index.getJugadores(), index.getPuntos(), index.getPartidosJugados() + 1);
                         JOptionPane.showMessageDialog(null, "Equipo Ganador: " + aux.getNombre() + " Equipo Perdedor: " + index.getNombre());
@@ -154,8 +152,6 @@ public class PartidoVista extends JPanel {
                         JLabelEquipo2.setText("Perdedor: " + index.getNombre());
                         return;
                     case 2:
-                        System.out.println("Empate: " + aux.getNombre());
-                        System.out.println("Empate: " + index.getNombre());
                         es.modificarEquipoSinJugadores(aux.getId(), aux.getNombre(), aux.getDirectorTecnico(), aux.getJugadores(), aux.getPuntos() + 1, aux.getPartidosJugados() + 1);
                         es.modificarEquipoSinJugadores(index.getId(), index.getNombre(), index.getDirectorTecnico(), index.getJugadores(), index.getPuntos() + 1, index.getPartidosJugados() + 1);
                         JOptionPane.showMessageDialog(null, "Equipo Empate: " + aux.getNombre() + " Equipo Empate: " + index.getNombre());
@@ -163,8 +159,6 @@ public class PartidoVista extends JPanel {
                         JLabelEquipo2.setText("Empate: " + index.getNombre());
                         return;
                     case 3:
-                        System.out.println("Perdedor: " + aux.getNombre());
-                        System.out.println("Ganador: " + index.getNombre());
                         es.modificarEquipoSinJugadores(aux.getId(), aux.getNombre(), aux.getDirectorTecnico(), aux.getJugadores(), aux.getPuntos(), aux.getPartidosJugados() + 1);
                         es.modificarEquipoSinJugadores(index.getId(), index.getNombre(), index.getDirectorTecnico(), index.getJugadores(), index.getPuntos() + 3, index.getPartidosJugados() + 1);
                         JOptionPane.showMessageDialog(null, "Equipo Perdedor: " + aux.getNombre() + " Equipo Ganador: " + index.getNombre());
