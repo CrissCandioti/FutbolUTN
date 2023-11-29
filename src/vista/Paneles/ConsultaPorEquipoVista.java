@@ -72,7 +72,6 @@ public class ConsultaPorEquipoVista extends JPanel {
                             actualizarTabla(aux);
                             jugadoresTablaRellenar = es.buscarEquipoPorID(valorCodigo).getJugadores();
                             refrescarTabla();
-                            System.out.println(aux);
                         }
                     } catch (Exception f) {
                         JOptionPane.showMessageDialog(null, "Ingrese un valor numerico");
